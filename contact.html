@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Egyptian Culture</title>
+
+    <link rel="stylesheet" href="style_4.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <a href="Art.html" class="logo">pHarAoh</a>
+
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <nav class="nav">
+            <ul class="nav_list">
+              <li class="nav_item">
+                <a class="nav_link" href="/">Home</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="/Artifacts.html">Artifacts</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="/Exhibition.html">Exhibition</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="/Contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Contact Us</h1>
+
+        <p>
+          we'd love to hear from you .For all inquiries and assistance<br />
+          ,please contact us using the form below
+        </p>
+
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+    <!--
+  <form id="addForm">
+      <div class="text-container">
+        <title>Fill in this form</title>
+      </div>
+
+      <div class="form">
+        <label for="name">Name</label>
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Your name"
+          name="name"
+        /><br />
+
+        <label for="body">Message</label>
+        <textarea id="body" placeholder="Message" name="message"></textarea>
+
+        <br />
+        <button type="submit" onclick="addMessage()">send</button>
+      </div>
+
+      <div id="messageList"></div>
+    </form> -->
+    <div class="container">
+      <h1>Message Board</h1>
+
+    <form id="addForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <textarea id="body" placeholder="Enter your message" required></textarea>
+        <button type="submit">Add Message</button>
+    </form>
+  
+      <input type="text" id="searchInput" placeholder="Search by name...">
+      
+      <table id="messageTable" class="table">
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Message</th>
+                  <th>Edit</th>
+                  <th>Delete</th>
+              </tr>
+          </thead>
+          <tbody id="messageList"></tbody>
+      </table>
+  </div>
+  
+  
+    <footer class="footer">
+      <div class="l-footer">
+        <p>
+          The massive collection in the art and artifacts of Egypt's,also also
+          consists of more than 120000 objects which runs abroad the luxor
+          collection lies along the Nile beside the towering temple of luxor
+        </p>
+      </div>
+
+      <ul class="r-footer">
+        <li>
+          <h2>About Us</h2>
+          <ul class="box">
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </li>
+        <li class="features">
+          <h2>Get Help</h2>
+          <ul class="box h-box">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Report</a></li>
+          </ul>
+        </li>
+        <li>
+          <h2>Employment</h2>
+          <ul class="box">
+            <li><a href="#">Host your Event</a></li>
+            <li><a href="#">Record request</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="b-footer">
+        <p>All Right Reserved</p>
+      </div>
+    </footer>
+    <!-- <script src="JQUERY.JS"></script> -->
+    <script src="scriptt.js"></script>
+  </body>
+</html>
